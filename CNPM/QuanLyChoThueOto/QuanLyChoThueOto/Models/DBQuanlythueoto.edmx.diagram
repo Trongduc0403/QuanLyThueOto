@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f4a4c3ffe3cc4f66806cf2db00c89aac" Name="Diagram1">
+        <EntityTypeShape EntityType="CNPMModel.Account" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.BBGN" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.BBSC" Width="1.5" PointX="8.25" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.HopDong" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.KhachHang" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.LoaiXe" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.NhanVien" Width="1.5" PointX="3" PointY="14.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.sysdiagram" Width="1.5" PointX="9.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.ThanhToan" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="CNPMModel.Xe" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <AssociationConnector Association="CNPMModel.FK_BBGN_Xe" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_6_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_6_Table_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_BBSC_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_7_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_7_Table_4" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_5_KhachHang" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_5_Table_2" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_5_Table_4" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_ThanhToan_HopDong" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_Table_4_Table_3" ManuallyRouted="false" />
+        <AssociationConnector Association="CNPMModel.FK_ThanhToan_NhanVien" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
