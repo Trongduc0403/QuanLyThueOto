@@ -10,12 +10,17 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using QuanLyChoThueOto.Controller;
 using QuanLyChoThueOto.Models;
-
+using System.Drawing.Printing;
+using Syncfusion.Pdf;
+using Syncfusion.Pdf.Graphics;
+using System.Drawing;
+using System.Diagnostics;
 
 namespace QuanLyChoThueOto
 {
     public partial class HopDongThueXe : DevExpress.XtraEditors.XtraForm
     {
+        CNPMEntities dbcnpm = new CNPMEntities();
         
         public HopDongThueXe()
         {
@@ -206,6 +211,58 @@ namespace QuanLyChoThueOto
                 cbbSoXe.Text = row.Cells[1].Value.ToString();
             }
             GetMaHD = txtSoDH.Text.ToString();
+        }
+
+        private void btIn_Click(object sender, EventArgs e)
+        {
+            var khachhang = (from kh in dbcnpm.KhachHangs
+                             join hd in dbcnpm.HopDongs on kh.idKH equals hd.idKH
+                             where kh.MaKH== this.cbbMaKH.Text.ToString()
+                             select kh).FirstOrDefault();
+            //Create the new PDF document
+            PdfDocument document = new PdfDocument();
+            //Add a page to the document
+            PdfPage page = document.Pages.Add();
+            //Create PDF graphics for the page
+            PdfGraphics graphics = page.Graphics;
+            //Create a new PDF font instance
+            PdfFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 14);
+            string SoHD = this.txtSoDH.Text.ToString();
+            string MaKH = khachhang.TenKH;
+            string MaNV = this.cbbMaNV.Text.ToString();
+            string TienDat = this.txtTienDat.Text.ToString();
+            string KhuyenMai = this.txtKhuyenMai.Text.ToString();
+            string NgayHD = this.msktbNgayHD.Text.ToString();
+            string SoXe = this.cbbSoXe.Text.ToString();
+            string GiayTo = this.txtGiayTo.Text.ToString();
+            string NoiDung = this.txtNoiDungHD.Text.ToString();
+            //Draw string to the PDF page
+            graphics.DrawString("Code contract:                 " + SoHD, font, PdfBrushes.Black, 0, 0);
+            graphics.DrawString("Code customer:                 "   + MaKH, font, PdfBrushes.Black, 0, 50);
+            graphics.DrawString("Code employee:                 "+ MaNV, font, PdfBrushes.Black,0,100);
+            graphics.DrawString("Deposits:                      " + TienDat, font, PdfBrushes.Black, 0,150);
+            graphics.DrawString("Promotion:                     " + KhuyenMai, font, PdfBrushes.Black, 0, 200);
+            graphics.DrawString("Create date of contract:       " + NgayHD, font, PdfBrushes.Black, 0, 250);
+            graphics.DrawString("Car number plates:             "+ SoXe, font, PdfBrushes.Black, 0, 300);
+            graphics.DrawString("Papers:                        " + GiayTo, font, PdfBrushes.Black, 0, 350);
+            graphics.DrawString("Content:                       " + NoiDung, font, PdfBrushes.Black, 0, 400);
+            graphics.DrawString("Customer signature", font, PdfBrushes.Black, 300, 600);
+            graphics.DrawString("Employee signature", font, PdfBrushes.Black, 50, 600);
+            //Draw rectangle
+            //Save the document
+            try
+            {
+                document.Save("Hopdong.pdf");
+            }
+            catch
+            {
+                MessageBox.Show("Turn off file exist!!!!!!!!!!!!!1");
+            }
+            
+            //Close the document
+            document.Close(true);
+            //This will open the PDF file so, the result will be seen in default PDF Viewer
+            Process.Start("Hopdong.pdf");
         }
     }
 }

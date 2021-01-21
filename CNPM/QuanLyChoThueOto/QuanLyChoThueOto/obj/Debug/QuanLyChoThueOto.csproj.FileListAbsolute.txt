@@ -332,3 +332,309 @@ C:\Users\Trong\OneDrive\Máy tính\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\De
 C:\Users\Trong\OneDrive\Máy tính\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraPdfViewer.v20.1.resources.dll
 C:\Users\Trong\OneDrive\Máy tính\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangKy.resources
 C:\Users\Trong\OneDrive\Máy tính\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.NguoiDung.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.exe.config
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.exe
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.pdb
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.SqlServer.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Images.v20.1.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Data.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.DataAccess.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.ExpressApp.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Mvvm.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Office.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Persistent.Base.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Utils.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Xpo.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraBars.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraPdfViewer.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraReports.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.SqlServer.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.ExpressApp.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.ExpressApp.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.ExpressApp.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.ExpressApp.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Persistent.Base.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Persistent.Base.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Persistent.Base.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Persistent.Base.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraPdfViewer.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraPdfViewer.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraPdfViewer.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraPdfViewer.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csprojAssemblyReference.cache
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangKy.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.NguoiDung.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinLoaiXe.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinNhanVien.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinBBGN.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinKH.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinSuCo.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinXe.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DanhSachSuCocs.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.HopDongThueXe.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinKhachHang.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ManHinhChinh.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangNhap.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.Properties.Resources.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangKyThueXe.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinXe.resources
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.GenerateResource.cache
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.exe.licenses
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.CoreCompileInputs.cache
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.CopyComplete
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.exe
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.pdb
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Compression.Base.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Licensing.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Pdf.Base.dll
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Compression.Base.xml
+E:\Nam3\SortwareTech\CNPM\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.exe.config
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.exe
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\QuanLyChoThueOto.pdb
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Compression.Base.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Licensing.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Pdf.Base.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Images.v20.1.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraCharts.v20.1.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Charts.v20.1.Core.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.PivotGrid.v20.1.Core.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGauges.v20.1.Core.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Data.Desktop.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Data.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.DataAccess.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.ExpressApp.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Mvvm.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Office.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Pdf.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Pdf.v20.1.Drawing.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Persistent.Base.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Printing.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.RichEdit.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Sparkline.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Utils.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.Xpo.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraBars.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraEditors.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGrid.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraLayout.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraPdfViewer.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraPrinting.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraReports.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraTreeList.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Compression.Base.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\Syncfusion.Pdf.Base.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraCharts.v20.1.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.PivotGrid.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\DevExpress.XtraGauges.v20.1.Core.xml
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Data.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Data.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Data.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Data.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.DataAccess.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.ExpressApp.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.ExpressApp.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.ExpressApp.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.ExpressApp.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Office.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Pdf.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Persistent.Base.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Persistent.Base.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Persistent.Base.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Persistent.Base.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Printing.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.RichEdit.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Sparkline.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Utils.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Utils.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Utils.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Utils.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.Xpo.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraBars.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraEditors.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraGrid.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraLayout.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraPdfViewer.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraPdfViewer.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraPdfViewer.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraPdfViewer.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraPrinting.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraReports.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraTreeList.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraCharts.v20.1.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.PivotGrid.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\de\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\es\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ja\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\bin\Debug\ru\DevExpress.XtraGauges.v20.1.Core.resources.dll
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csprojAssemblyReference.cache
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangKy.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.NguoiDung.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinLoaiXe.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinNhanVien.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinBBGN.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinKH.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinSuCo.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.CapNhatThongTinXe.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DanhSachSuCocs.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.HopDongThueXe.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinKhachHang.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ManHinhChinh.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangNhap.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.Properties.Resources.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.DangKyThueXe.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.ThongTinXe.resources
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.exe.licenses
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.csproj.CopyComplete
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.exe
+C:\Users\DELL\OneDrive\Máy tính\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\CNPM-cc2f0bd2a99b7ada8ab689a2c146a6180ccf2974\QuanLyChoThueOto\QuanLyChoThueOto\obj\Debug\QuanLyChoThueOto.pdb

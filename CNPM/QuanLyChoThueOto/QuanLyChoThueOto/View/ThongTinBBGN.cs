@@ -10,11 +10,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using QuanLyChoThueOto.Models;
 using QuanLyChoThueOto.Controller;
+using Syncfusion.Pdf;
+using Syncfusion.Pdf.Graphics;
+using System.Diagnostics;
 
 namespace QuanLyChoThueOto
 {
     public partial class ThongTinBBGN : DevExpress.XtraEditors.XtraForm
     {
+        CNPMEntities dbcnpm = new CNPMEntities();
         public ThongTinBBGN()
         {
             InitializeComponent();
@@ -180,6 +184,63 @@ namespace QuanLyChoThueOto
             CNPMEntities context = new CNPMEntities();
             List<BBGN> lstBBGn = context.BBGNs.ToList();
             BindGrid(lstBBGn);
+        }
+
+        private void btIn_Click(object sender, EventArgs e)
+        {
+            var khachhang = (from kh in dbcnpm.KhachHangs
+                             join hd in dbcnpm.BBGNs on kh.idKH equals hd.idKH
+                             where kh.MaKH == this.cbbMaKH.Text.ToString()
+                             select kh).FirstOrDefault();
+            //Create the new PDF document
+            PdfDocument document = new PdfDocument();
+            //Add a page to the document
+            PdfPage page = document.Pages.Add();
+            //Create PDF graphics for the page
+            PdfGraphics graphics = page.Graphics;
+            //Create a new PDF font instance
+            PdfFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 14);
+            string MaBBGN = this.txtMaBBGN.Text.ToString();
+            string SoXe = this.cbbSoXe.Text.ToString();
+            string MaKH = khachhang.TenKH;
+            string MaNV = this.cbbMaNV.Text.ToString();
+            string NgayGiao = this.mskNgayGiao.Text.ToString();
+            string NgayNhan = this.mskNgayNhan.Text.ToString();
+            string kmDi = this.txtKmDi.Text.ToString();
+            string kmVe = this.txtKmVe.Text.ToString();
+            string XangDi = this.txtXangDi.Text.ToString();
+            string XangXe = this.txtXangVe.Text.ToString();
+            string motadi = this.txtTTDi.Text.ToString();
+            string motave = this.txtTTVe.Text.ToString();
+            //Draw string to the PDF page
+            graphics.DrawString("Code receipt of delivery:                 " + MaBBGN, font, PdfBrushes.Black, 0, 0);
+            graphics.DrawString("Name of customer:                 " + MaKH, font, PdfBrushes.Black, 0, 50);
+            graphics.DrawString("Code of employee:                 " + MaNV, font, PdfBrushes.Black, 0, 100);
+            graphics.DrawString("Car delivery date:                      " + NgayGiao, font, PdfBrushes.Black, 0, 150);
+            graphics.DrawString("the date of receiving the car:                     " + NgayNhan, font, PdfBrushes.Black, 0, 200);
+            graphics.DrawString("Number km start:       " + kmDi, font, PdfBrushes.Black, 0, 250);
+            graphics.DrawString("Number km finish:             " + kmVe, font, PdfBrushes.Black, 0, 300);
+            graphics.DrawString("Gasoline from:                        " + XangDi, font, PdfBrushes.Black, 0, 350);
+            graphics.DrawString("Gasoline finish:                       " + XangXe, font, PdfBrushes.Black, 0, 400);
+            graphics.DrawString("Description start:                        " + motadi, font, PdfBrushes.Black, 0, 450);
+            graphics.DrawString("Description finish:                       " + motave, font, PdfBrushes.Black, 0, 500);
+            graphics.DrawString("Customer signature", font, PdfBrushes.Black, 300, 600);
+            graphics.DrawString("Employee signature", font, PdfBrushes.Black, 50, 600);
+            //Draw rectangle
+            //Save the document
+            try
+            {
+                document.Save("BienBanGiaoNhan.pdf");
+            }
+            catch
+            {
+                MessageBox.Show("Turn off file exist!!!!!!!!!!!!!1");
+            }
+
+            //Close the document
+            document.Close(true);
+            //This will open the PDF file so, the result will be seen in default PDF Viewer
+            Process.Start("BienBanGiaoNhan.pdf");
         }
     }
 }
