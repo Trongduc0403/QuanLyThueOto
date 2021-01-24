@@ -14,7 +14,7 @@ namespace QuanLyChoThueOto.Models
     
     public partial class BBSC
     {
-        public string id_BBSC { get; set; }
+        public int id_BBSC { get; set; }
         public int idXe { get; set; }
         public int idKH { get; set; }
         public int idNV { get; set; }

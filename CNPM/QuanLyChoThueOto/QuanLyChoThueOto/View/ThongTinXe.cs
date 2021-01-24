@@ -95,7 +95,7 @@ namespace QuanLyChoThueOto
             BindGrid(listXe);
         }
 
-        private void dgvXe_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        private void dgvXe_CellContentClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             btSua.Enabled = true;
             btXoa.Enabled = true;
@@ -151,6 +151,27 @@ namespace QuanLyChoThueOto
             CNPMEntities context = new CNPMEntities();
             List<Xe> xes = context.Xes.ToList();
             BindGrid(xes);
+        }
+
+        private void dgvXe_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btSua.Enabled = true;
+            btXoa.Enabled = true;
+
+
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvXe.Rows[e.RowIndex];
+                txtBSX.Text = row.Cells[0].Value.ToString();
+                cbbLoaiXe.Text = row.Cells[1].Value.ToString();
+                txtTenXe.Text = row.Cells[2].Value.ToString();
+                txtPhiXang.Text = row.Cells[3].Value.ToString();
+                txtPhiQuaKm.Text = row.Cells[4].Value.ToString();
+                txtDonGia.Text = row.Cells[5].Value.ToString();
+                txtMoTaTT.Text = row.Cells[6].Value.ToString();
+                txtTrangThai.Text = row.Cells[7].Value.ToString();
+            }
+            GetBSX = txtBSX.Text.ToString();
         }
     }
 }

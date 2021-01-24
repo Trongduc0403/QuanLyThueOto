@@ -75,24 +75,7 @@ namespace QuanLyChoThueOto
                 XtraMessageBox.Show("Thêm khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
 
-        private void dgvKH_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            btSua.Enabled = true;
-            btXoa.Enabled = true;
-            
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dgvKH.Rows[e.RowIndex];
-                txtMaKH.Text = row.Cells[0].Value.ToString(); 
-                txtTenKH.Text = row.Cells[1].Value.ToString();
-                txtDiaChi.Text = row.Cells[2].Value.ToString();
-                txtSDT.Text = row.Cells[3].Value.ToString();
-                txtCMT.Text = row.Cells[4].Value.ToString();
-                txtGPLX.Text = row.Cells[5].Value.ToString();
-            }
-            GetMaKH = txtMaKH.Text.ToString();
-            
-        }
+        
 
         private void btSua_Click(object sender, EventArgs e)
         {
@@ -128,6 +111,50 @@ namespace QuanLyChoThueOto
             CNPMEntities context = new CNPMEntities();
             List<KhachHang> listKhachHang = context.KhachHangs.ToList();
             BindGrid(listKhachHang);
+        }
+
+        private void dgvKH_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btSua.Enabled = true;
+            btXoa.Enabled = true;
+
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvKH.Rows[e.RowIndex];
+                txtMaKH.Text = row.Cells[0].Value.ToString();
+                txtTenKH.Text = row.Cells[1].Value.ToString();
+                txtDiaChi.Text = row.Cells[2].Value.ToString();
+                txtSDT.Text = row.Cells[3].Value.ToString();
+                txtCMT.Text = row.Cells[4].Value.ToString();
+                txtGPLX.Text = row.Cells[5].Value.ToString();
+            }
+            GetMaKH = txtMaKH.Text.ToString();
+        }
+
+        private void dgvKH_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            //btSua.Enabled = true;
+            //btXoa.Enabled = true;
+
+            //if (e.RowIndex >= 0)
+            //{
+            //    DataGridViewRow row = dgvKH.Rows[e.RowIndex];
+            //    try
+            //    {
+            //        txtMaKH.Text = row.Cells[0].Value.ToString();
+            //        txtTenKH.Text = row.Cells[1].Value.ToString();
+            //        txtDiaChi.Text = row.Cells[2].Value.ToString();
+            //        txtSDT.Text = row.Cells[3].Value.ToString();
+            //        txtCMT.Text = row.Cells[4].Value.ToString();
+            //        txtGPLX.Text = row.Cells[5].Value.ToString();
+            //        GetMaKH = txtMaKH.Text.ToString();
+            //    }
+            //    catch
+            //    {
+            //        MessageBox.Show("Yêu cầu chọn lại !");
+            //    }
+
+            //}
         }
     }
 }

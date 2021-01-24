@@ -8,13 +8,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using QuanLyChoThueOto.Models;
 using QuanLyChoThueOto.Controller;
+using QuanLyChoThueOto.Models;
+using System.Drawing.Printing;
+using Syncfusion.Pdf;
+using Syncfusion.Pdf.Graphics;
+using System.Diagnostics;
 
 namespace QuanLyChoThueOto
 {
     public partial class ThongTinBBGN : DevExpress.XtraEditors.XtraForm
     {
+        CNPMEntities dbcnpm = new CNPMEntities();
         public ThongTinBBGN()
         {
             InitializeComponent();
@@ -113,29 +118,7 @@ namespace QuanLyChoThueOto
             BindGrid(lstBBGn);
         }
 
-        private void dgvBBGN_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            btSua.Enabled = true;
-            btXoa.Enabled = true;
-            btIn.Enabled = true;
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dgvBBGN.Rows[e.RowIndex];
-                txtMaBBGN.Text = row.Cells[0].Value.ToString();
-                cbbSoXe.Text = row.Cells[1].Value.ToString();
-                cbbMaKH.Text = row.Cells[2].Value.ToString();
-                cbbMaNV.Text = row.Cells[3].Value.ToString();
-                mskNgayGiao.Text = row.Cells[4].Value.ToString();
-                txtKmDi.Text = row.Cells[5].Value.ToString();
-                txtXangDi.Text = row.Cells[6].Value.ToString();
-                txtTTDi.Text = row.Cells[7].Value.ToString();
-                mskNgayNhan.Text = row.Cells[8].Value.ToString();
-                txtKmVe.Text = row.Cells[9].Value.ToString();
-                txtXangVe.Text = row.Cells[10].Value.ToString();
-                txtTTVe.Text = row.Cells[11].Value.ToString();
-            }
-            GetMaBBGN = txtMaBBGN.Text.ToString();
-        }
+        
 
         private void btSua_Click(object sender, EventArgs e)
         {
@@ -180,6 +163,94 @@ namespace QuanLyChoThueOto
             CNPMEntities context = new CNPMEntities();
             List<BBGN> lstBBGn = context.BBGNs.ToList();
             BindGrid(lstBBGn);
+        }
+
+        private void dgvBBGN_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btSua.Enabled = true;
+            btXoa.Enabled = true;
+            btIn.Enabled = true;
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvBBGN.Rows[e.RowIndex];
+                txtMaBBGN.Text = row.Cells[0].Value.ToString();
+                cbbSoXe.Text = row.Cells[1].Value.ToString();
+                cbbMaKH.Text = row.Cells[2].Value.ToString();
+                cbbMaNV.Text = row.Cells[3].Value.ToString();
+                mskNgayGiao.Text = row.Cells[4].Value.ToString();
+                txtKmDi.Text = row.Cells[5].Value.ToString();
+                txtXangDi.Text = row.Cells[6].Value.ToString();
+                txtTTDi.Text = row.Cells[7].Value.ToString();
+                mskNgayNhan.Text = row.Cells[8].Value.ToString();
+                txtKmVe.Text = row.Cells[9].Value.ToString();
+                txtXangVe.Text = row.Cells[10].Value.ToString();
+                txtTTVe.Text = row.Cells[11].Value.ToString();
+            }
+            GetMaBBGN = txtMaBBGN.Text.ToString();
+        }
+
+        private void btIn_Click(object sender, EventArgs e)
+        {
+            var khachhang = (from kh in dbcnpm.KhachHangs
+                             join hd in dbcnpm.BBGNs on kh.idKH equals hd.idKH
+                             where kh.MaKH == this.cbbMaKH.Text.ToString()
+                             select kh).FirstOrDefault();
+            var nhanvien = (from nv in dbcnpm.NhanViens
+                             join hd in dbcnpm.BBGNs on nv.idNV equals hd.idNV
+                             where nv.MaNV == this.cbbMaNV.Text.ToString()
+                             select nv).FirstOrDefault();
+
+            //Create the new PDF document
+            PdfDocument document = new PdfDocument();
+            //Add a page to the document
+            PdfPage page = document.Pages.Add();
+            //Create PDF graphics for the page
+            PdfGraphics graphics = page.Graphics;
+            //Create a new PDF font instance
+            PdfFont font = new PdfStandardFont(PdfFontFamily.TimesRoman, 14);
+            PdfFont font1 = new PdfStandardFont(PdfFontFamily.TimesRoman, 20, PdfFontStyle.Bold);
+            string MaBBGN = this.txtMaBBGN.Text.ToString();
+            string SoXe = this.cbbSoXe.Text.ToString();
+            string TenKH = khachhang.TenKH;
+            string TenNV = nhanvien.TenNV;
+            string NgayGiao = this.mskNgayGiao.Text.ToString();
+            string NgayNhan = this.mskNgayNhan.Text.ToString();
+            string kmDi = this.txtKmDi.Text.ToString();
+            string kmVe = this.txtKmVe.Text.ToString();
+            string XangDi = this.txtXangDi.Text.ToString();
+            string XangXe = this.txtXangVe.Text.ToString();
+            string motadi = this.txtTTDi.Text.ToString();
+            string motave = this.txtTTVe.Text.ToString();
+            //Draw string to the PDF page
+            graphics.DrawString("RECEIPT OF DELIVERY                 ", font1, PdfBrushes.Black, 130, 0);
+            graphics.DrawString("Code receipt of delivery:                 " + MaBBGN, font, PdfBrushes.Black, 0, 50);
+            graphics.DrawString("Customer name:                 " + TenKH, font, PdfBrushes.Black, 0, 100);
+            graphics.DrawString("Employee name:                 " + TenNV, font, PdfBrushes.Black, 0, 150);
+            graphics.DrawString("Car delivery date:                      " + NgayGiao, font, PdfBrushes.Black, 0, 200);
+            graphics.DrawString("Car receiving date:                     " + NgayNhan, font, PdfBrushes.Black, 0, 250);
+            graphics.DrawString("Number km start:       " + kmDi, font, PdfBrushes.Black, 0, 300);
+            graphics.DrawString("Number km finish:             " + kmVe, font, PdfBrushes.Black, 0, 350);
+            graphics.DrawString("Gasoline start:                        " + XangDi, font, PdfBrushes.Black, 0, 400);
+            graphics.DrawString("Gasoline finish:                       " + XangXe, font, PdfBrushes.Black, 0, 450);
+            graphics.DrawString("Description start:                        " + motadi, font, PdfBrushes.Black, 0, 500);
+            graphics.DrawString("Description finish:                       " + motave, font, PdfBrushes.Black, 0, 550);
+            graphics.DrawString("Customer signature", font, PdfBrushes.Black, 300, 600);
+            graphics.DrawString("Employee signature", font, PdfBrushes.Black, 50, 600);
+            //Draw rectangle
+            //Save the document
+            try
+            {
+                document.Save("BienBanGiaoNhan.pdf");
+            }
+            catch
+            {
+                MessageBox.Show("Turn off file exist!!!!!!!!!!!!!1");
+            }
+
+            //Close the document
+            document.Close(true);
+            //This will open the PDF file so, the result will be seen in default PDF Viewer
+            Process.Start("BienBanGiaoNhan.pdf");
         }
     }
 }

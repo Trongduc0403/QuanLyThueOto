@@ -32,6 +32,10 @@ namespace QuanLyChoThueOto
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThongTinLoaiXe));
             this.label10 = new System.Windows.Forms.Label();
             this.dgvLX = new System.Windows.Forms.DataGridView();
+            this.clMaLoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTenLoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clSL = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clMoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.txtMoTa = new System.Windows.Forms.TextBox();
             this.txtSL = new System.Windows.Forms.TextBox();
             this.txtTenLoai = new System.Windows.Forms.TextBox();
@@ -45,10 +49,6 @@ namespace QuanLyChoThueOto
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtMaLoai = new System.Windows.Forms.TextBox();
-            this.clMaLoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clTenLoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clSL = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.clMoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgvLX)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,7 +79,31 @@ namespace QuanLyChoThueOto
             this.dgvLX.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvLX.Size = new System.Drawing.Size(602, 318);
             this.dgvLX.TabIndex = 107;
-            this.dgvLX.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvLX_CellMouseClick);
+            this.dgvLX.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvLX_CellContentClick);
+            // 
+            // clMaLoai
+            // 
+            this.clMaLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clMaLoai.HeaderText = "Mã loại xe";
+            this.clMaLoai.Name = "clMaLoai";
+            // 
+            // clTenLoai
+            // 
+            this.clTenLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clTenLoai.HeaderText = "Tên loại xe";
+            this.clTenLoai.Name = "clTenLoai";
+            // 
+            // clSL
+            // 
+            this.clSL.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clSL.HeaderText = "Số lượng";
+            this.clSL.Name = "clSL";
+            // 
+            // clMoTa
+            // 
+            this.clMoTa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clMoTa.HeaderText = "Mô tả";
+            this.clMoTa.Name = "clMoTa";
             // 
             // txtMoTa
             // 
@@ -233,30 +257,6 @@ namespace QuanLyChoThueOto
             this.txtMaLoai.Name = "txtMaLoai";
             this.txtMaLoai.Size = new System.Drawing.Size(181, 30);
             this.txtMaLoai.TabIndex = 1;
-            // 
-            // clMaLoai
-            // 
-            this.clMaLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clMaLoai.HeaderText = "Mã loại xe";
-            this.clMaLoai.Name = "clMaLoai";
-            // 
-            // clTenLoai
-            // 
-            this.clTenLoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clTenLoai.HeaderText = "Tên loại xe";
-            this.clTenLoai.Name = "clTenLoai";
-            // 
-            // clSL
-            // 
-            this.clSL.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clSL.HeaderText = "Số lượng";
-            this.clSL.Name = "clSL";
-            // 
-            // clMoTa
-            // 
-            this.clMoTa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.clMoTa.HeaderText = "Mô tả";
-            this.clMoTa.Name = "clMoTa";
             // 
             // ThongTinLoaiXe
             // 

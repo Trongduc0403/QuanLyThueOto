@@ -51,6 +51,11 @@ namespace QuanLyChoThueOto.Controller
                 return null;
             }
         }
+
+        public static void ChangePassWord()
+        {
+
+        }
         
 
     }

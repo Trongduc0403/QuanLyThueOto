@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using QuanLyChoThueOto.Models;
 
 
 namespace QuanLyChoThueOto
@@ -27,10 +28,37 @@ namespace QuanLyChoThueOto
             themes.LookAndFeel.SkinName = "DevExpress Style";
         }
 
+        private void BindGrid(List<Xe> lstXe)
+        {
+            dgvXe.Rows.Clear();
+            int i = 0;
+            foreach (var item in lstXe)
+            {
+                using (CNPMEntities db = new CNPMEntities())
+                {
+                    int index = dgvXe.Rows.Add();
+
+                    dgvXe.Rows[index].Cells[0].Value = item.Biensoxe;
+                    dgvXe.Rows[index].Cells[1].Value = item.TenXe;
+                    dgvXe.Rows[index].Cells[2].Value = item.PhiXang;
+                    dgvXe.Rows[index].Cells[3].Value = item.PhiQuaKm;
+                    dgvXe.Rows[index].Cells[4].Value = item.DonGia;
+                    dgvXe.Rows[index].Cells[5].Value = item.MoTaTT;
+                    dgvXe.Rows[index].Cells[6].Value = item.TrangThai;
+                    i++;
+                }
+
+            }
+        }
+
         private void ManHinhChinh_Load(object sender, EventArgs e)
         {
             // TODO: This line of code loads data into the 'quanlythueotoDataSet5.XE' table. You can move, or remove it, as needed.
             skin();
+            CNPMEntities context = new CNPMEntities();
+            List<Xe> lstXe = context.Xes.ToList();
+            BindGrid(lstXe);
+
 
         }
 
@@ -53,7 +81,11 @@ namespace QuanLyChoThueOto
 
         private void btXeDaThue_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-
+            CNPMEntities db = new CNPMEntities();
+            var getxe = (from xe in db.Xes
+                         where xe.TrangThai == 1
+                         select xe).ToList();
+            BindGrid(getxe);
         }
 
 
@@ -76,17 +108,16 @@ namespace QuanLyChoThueOto
         private void btXeRanh_ItemClick_1(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
 
+            CNPMEntities db = new CNPMEntities();
+            var getxe = (from xe in db.Xes
+                         where xe.TrangThai == 0
+                         select xe).ToList();
+            BindGrid(getxe);
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
 
-        }
 
-        private void btThem_Click(object sender, EventArgs e)
-        {
 
-        }
 
         private void btKhachHang_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
@@ -124,6 +155,39 @@ namespace QuanLyChoThueOto
             this.Hide();
             f.ShowDialog();
             this.Show();
+        }
+
+        private void btSuCo_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DanhSachSuCocs f = new DanhSachSuCocs();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void btDoiMatKhau_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            DoiMatKhau f = new DoiMatKhau();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            ThanhToanHopDong f = new ThanhToanHopDong();
+            this.Hide();
+            f.ShowDialog();
+            this.Show();
+        }
+
+        private void btXeSua_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            CNPMEntities db = new CNPMEntities();
+            var getxe = (from xe in db.Xes
+                         where xe.TrangThai == 2
+                         select xe).ToList();
+            BindGrid(getxe);
         }
     }
 }

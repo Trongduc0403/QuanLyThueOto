@@ -65,22 +65,7 @@ namespace QuanLyChoThueOto
             BindGrid(listLoaiXe);
         }
 
-        private void dgvLX_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            btSua.Enabled = true;
-            btXoa.Enabled = true;
 
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dgvLX.Rows[e.RowIndex];
-                txtMaLoai.Text = row.Cells[0].Value.ToString();
-                txtTenLoai.Text = row.Cells[1].Value.ToString();
-                txtSL.Text = row.Cells[2].Value.ToString();
-                txtMoTa.Text = row.Cells[3].Value.ToString();
-
-            }
-            GetTenLoai = txtTenLoai.Text.ToString();
-        }
 
         private void btSua_Click(object sender, EventArgs e)
         {
@@ -111,6 +96,23 @@ namespace QuanLyChoThueOto
             CNPMEntities context = new CNPMEntities();
             List<LoaiXe> listLoaiXe = context.LoaiXes.ToList();
             BindGrid(listLoaiXe);
+        }
+
+        private void dgvLX_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btSua.Enabled = true;
+            btXoa.Enabled = true;
+
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvLX.Rows[e.RowIndex];
+                txtMaLoai.Text = row.Cells[0].Value.ToString();
+                txtTenLoai.Text = row.Cells[1].Value.ToString();
+                txtSL.Text = row.Cells[2].Value.ToString();
+                txtMoTa.Text = row.Cells[3].Value.ToString();
+
+            }
+            GetTenLoai = txtTenLoai.Text.ToString();
         }
     }
 }

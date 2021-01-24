@@ -21,11 +21,11 @@
           <Property Name="idKH" Type="int" />
           <Property Name="idNV" Type="int" />
           <Property Name="MaBBGN" Type="nchar" MaxLength="10" />
-          <Property Name="NgayGiao" Type="datetime" />
+          <Property Name="NgayGiao" Type="date" />
           <Property Name="KmDi" Type="int" />
           <Property Name="XangDi" Type="char" MaxLength="20" />
           <Property Name="TrangThaiDi" Type="nvarchar" MaxLength="100" />
-          <Property Name="NgayNhan" Type="datetime" />
+          <Property Name="NgayNhan" Type="date" />
           <Property Name="KmVe" Type="int" />
           <Property Name="XangVe" Type="char" MaxLength="20" />
           <Property Name="TrangThaiVe" Type="nvarchar" MaxLength="100" />
@@ -34,13 +34,13 @@
           <Key>
             <PropertyRef Name="id_BBSC" />
           </Key>
-          <Property Name="id_BBSC" Type="nchar" MaxLength="10" Nullable="false" />
+          <Property Name="id_BBSC" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="idXe" Type="int" Nullable="false" />
           <Property Name="idKH" Type="int" Nullable="false" />
           <Property Name="idNV" Type="int" Nullable="false" />
           <Property Name="MaBBSC" Type="nchar" MaxLength="10" />
           <Property Name="TenSC" Type="nvarchar" MaxLength="50" />
-          <Property Name="NgayBBSC" Type="datetime" />
+          <Property Name="NgayBBSC" Type="date" />
           <Property Name="NoiDungSC" Type="nvarchar" MaxLength="100" />
           <Property Name="TienPhat" Type="char" MaxLength="11" />
         </EntityType>
@@ -53,7 +53,7 @@
           <Property Name="idXe" Type="int" />
           <Property Name="idKH" Type="int" />
           <Property Name="idNV" Type="int" />
-          <Property Name="NgayHD" Type="datetime" />
+          <Property Name="NgayHD" Type="date" />
           <Property Name="NoiDungHD" Type="nvarchar" MaxLength="1000" />
           <Property Name="TienDat" Type="char" MaxLength="11" />
           <Property Name="KhuyenMai" Type="char" MaxLength="11" />
@@ -109,7 +109,7 @@
           <Property Name="id_Thanhtoan" Type="nchar" MaxLength="10" Nullable="false" />
           <Property Name="id_hopdong" Type="int" Nullable="false" />
           <Property Name="idNV" Type="int" />
-          <Property Name="NgayTT" Type="datetime" />
+          <Property Name="NgayTT" Type="date" />
           <Property Name="LyDo" Type="nvarchar" MaxLength="50" />
           <Property Name="HoSoKem" Type="nvarchar" MaxLength="50" />
           <Property Name="TienTT" Type="char" MaxLength="11" />
@@ -353,11 +353,11 @@
           <Property Name="idKH" Type="Int32" />
           <Property Name="idNV" Type="Int32" />
           <Property Name="MaBBGN" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
-          <Property Name="NgayGiao" Type="DateTime" Precision="3" />
+          <Property Name="NgayGiao" Type="DateTime" Precision="0" />
           <Property Name="KmDi" Type="Int32" />
           <Property Name="XangDi" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
           <Property Name="TrangThaiDi" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="NgayNhan" Type="DateTime" Precision="3" />
+          <Property Name="NgayNhan" Type="DateTime" Precision="0" />
           <Property Name="KmVe" Type="Int32" />
           <Property Name="XangVe" Type="String" MaxLength="20" FixedLength="true" Unicode="false" />
           <Property Name="TrangThaiVe" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
@@ -369,13 +369,13 @@
           <Key>
             <PropertyRef Name="id_BBSC" />
           </Key>
-          <Property Name="id_BBSC" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+          <Property Name="id_BBSC" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="idXe" Type="Int32" Nullable="false" />
           <Property Name="idKH" Type="Int32" Nullable="false" />
           <Property Name="idNV" Type="Int32" Nullable="false" />
           <Property Name="MaBBSC" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
           <Property Name="TenSC" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
-          <Property Name="NgayBBSC" Type="DateTime" Precision="3" />
+          <Property Name="NgayBBSC" Type="DateTime" Precision="0" />
           <Property Name="NoiDungSC" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="TienPhat" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
           <NavigationProperty Name="NhanVien" Relationship="Self.FK_BBSC_NhanVien" FromRole="BBSC" ToRole="NhanVien" />
@@ -391,7 +391,7 @@
           <Property Name="idXe" Type="Int32" />
           <Property Name="idKH" Type="Int32" />
           <Property Name="idNV" Type="Int32" />
-          <Property Name="NgayHD" Type="DateTime" Precision="3" />
+          <Property Name="NgayHD" Type="DateTime" Precision="0" />
           <Property Name="NoiDungHD" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
           <Property Name="TienDat" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
           <Property Name="KhuyenMai" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />
@@ -459,7 +459,7 @@
           <Property Name="id_Thanhtoan" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
           <Property Name="id_hopdong" Type="Int32" Nullable="false" />
           <Property Name="idNV" Type="Int32" />
-          <Property Name="NgayTT" Type="DateTime" Precision="3" />
+          <Property Name="NgayTT" Type="DateTime" Precision="0" />
           <Property Name="LyDo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="HoSoKem" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
           <Property Name="TienTT" Type="String" MaxLength="11" FixedLength="true" Unicode="false" />

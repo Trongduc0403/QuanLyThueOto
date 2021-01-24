@@ -20,6 +20,8 @@ namespace QuanLyChoThueOto
             InitializeComponent();
         }
 
+        public static string GetMatKhau { get; set; }
+
         private void groupControl1_Paint(object sender, PaintEventArgs e)
         {
 
@@ -34,25 +36,31 @@ namespace QuanLyChoThueOto
                 foreach (var a in getaccount)
                 {
                     if (txtTaiKhoan.Text == a.TaiKhoan.Trim() && AccountController.SHA256(txtMatKhau.Text) == a.MatKhau.Trim())
+                    {
                         return 1;
+                        
+                    } 
                 }
                 return 0;
             }
         }
         private void btDangNhap_Click(object sender, EventArgs e)
         {
-
             Account a = new Account();
             if (CheckAccount(a) == 1)
             {
+                GetMatKhau = txtMatKhau.Text;
                 ManHinhChinh m = new ManHinhChinh();
                 this.Hide();
                 m.ShowDialog();
                 this.Show();
+
             }
             else
                 XtraMessageBox.Show("Sai tài khoản hoặc mật khẩu","Thông báo",MessageBoxButtons.OK,MessageBoxIcon.Error);
         }
+
+        
 
         private void btThoat_Click(object sender, EventArgs e)
         {

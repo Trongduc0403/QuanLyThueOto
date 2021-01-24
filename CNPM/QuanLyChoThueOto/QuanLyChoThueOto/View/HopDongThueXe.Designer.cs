@@ -288,7 +288,7 @@ namespace QuanLyChoThueOto
             this.dgvHD.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvHD.Size = new System.Drawing.Size(754, 368);
             this.dgvHD.TabIndex = 85;
-            this.dgvHD.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvHD_CellMouseClick);
+            this.dgvHD.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvHD_CellContentClick);
             // 
             // clSoHD
             // 
@@ -426,6 +426,7 @@ namespace QuanLyChoThueOto
             this.btIn.Size = new System.Drawing.Size(88, 37);
             this.btIn.TabIndex = 83;
             this.btIn.Text = "In";
+            this.btIn.Click += new System.EventHandler(this.btIn_Click);
             // 
             // cbbMaNV
             // 

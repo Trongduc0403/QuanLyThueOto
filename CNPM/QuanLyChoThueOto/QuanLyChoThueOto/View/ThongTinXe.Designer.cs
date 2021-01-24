@@ -253,7 +253,7 @@ namespace QuanLyChoThueOto
             this.dgvXe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvXe.Size = new System.Drawing.Size(652, 297);
             this.dgvXe.TabIndex = 130;
-            this.dgvXe.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvXe_CellMouseClick);
+            this.dgvXe.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvXe_CellContentClick);
             // 
             // clBienSo
             // 

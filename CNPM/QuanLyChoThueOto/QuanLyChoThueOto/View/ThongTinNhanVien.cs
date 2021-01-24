@@ -69,22 +69,7 @@ namespace QuanLyChoThueOto
             BindGrid(listNhanVien);
         }
 
-        private void dgvNV_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
-        {
-            btSua.Enabled = true;
-            btXoa.Enabled = true;
-
-            if (e.RowIndex >= 0)
-            {
-                DataGridViewRow row = dgvNV.Rows[e.RowIndex];
-                txtMaNV.Text = row.Cells[0].Value.ToString();
-                txtTenNV.Text = row.Cells[1].Value.ToString();
-                txtVaiTro.Text = row.Cells[2].Value.ToString();
-                txtSDT.Text = row.Cells[3].Value.ToString();
-                txtCMT.Text = row.Cells[4].Value.ToString();
-            }
-            GetMaNV = txtMaNV.Text.ToString();
-        }
+        
 
         private void btSua_Click(object sender, EventArgs e)
         {
@@ -118,5 +103,21 @@ namespace QuanLyChoThueOto
             BindGrid(listNhanVien);
         }
 
+        private void dgvNV_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            btSua.Enabled = true;
+            btXoa.Enabled = true;
+
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow row = dgvNV.Rows[e.RowIndex];
+                txtMaNV.Text = row.Cells[0].Value.ToString();
+                txtTenNV.Text = row.Cells[1].Value.ToString();
+                txtVaiTro.Text = row.Cells[2].Value.ToString();
+                txtSDT.Text = row.Cells[3].Value.ToString();
+                txtCMT.Text = row.Cells[4].Value.ToString();
+            }
+            GetMaNV = txtMaNV.Text.ToString();
+        }
     }
 }

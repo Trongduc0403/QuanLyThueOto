@@ -76,7 +76,8 @@ namespace QuanLyChoThueOto
             this.dgvKH.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvKH.Size = new System.Drawing.Size(674, 296);
             this.dgvKH.TabIndex = 0;
-            this.dgvKH.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvKH_CellMouseClick);
+            this.dgvKH.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKH_CellClick);
+            this.dgvKH.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvKH_CellContentClick);
             // 
             // clMaKH
             // 

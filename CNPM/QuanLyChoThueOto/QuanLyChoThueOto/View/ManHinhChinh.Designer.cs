@@ -45,7 +45,6 @@ namespace QuanLyChoThueOto
             this.btNhanVien = new DevExpress.XtraBars.BarButtonItem();
             this.btLoaiXe = new DevExpress.XtraBars.BarButtonItem();
             this.btXe = new DevExpress.XtraBars.BarButtonItem();
-            this.btBaoCaoSuCo = new DevExpress.XtraBars.BarButtonItem();
             this.btHopDongTheoNgay = new DevExpress.XtraBars.BarButtonItem();
             this.btSuCoTheoNgay = new DevExpress.XtraBars.BarButtonItem();
             this.btLuotThue = new DevExpress.XtraBars.BarButtonItem();
@@ -57,6 +56,7 @@ namespace QuanLyChoThueOto
             this.workspaceManager1 = new DevExpress.Utils.WorkspaceManager(this.components);
             this.btXeRanh = new DevExpress.XtraBars.BarButtonItem();
             this.skinRibbonGalleryBarItem2 = new DevExpress.XtraBars.SkinRibbonGalleryBarItem();
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage5 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup10 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -78,13 +78,21 @@ namespace QuanLyChoThueOto
             this.ribbonPage6 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.dgvXe = new System.Windows.Forms.DataGridView();
+            this.clBienSoXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTenXe = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clPhiXang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clPhiKm = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clDonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clMoTa = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.clTrangThai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             btKhachHang = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemMemoExEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvXe)).BeginInit();
             this.SuspendLayout();
             // 
             // btKhachHang
@@ -115,7 +123,6 @@ namespace QuanLyChoThueOto
             this.btNhanVien,
             this.btLoaiXe,
             this.btXe,
-            this.btBaoCaoSuCo,
             btKhachHang,
             this.btHopDongTheoNgay,
             this.btSuCoTheoNgay,
@@ -126,9 +133,10 @@ namespace QuanLyChoThueOto
             this.barHeaderItem1,
             this.barWorkspaceMenuItem1,
             this.btXeRanh,
-            this.skinRibbonGalleryBarItem2});
+            this.skinRibbonGalleryBarItem2,
+            this.barButtonItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
-            this.ribbonControl1.MaxItemId = 39;
+            this.ribbonControl1.MaxItemId = 40;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
             this.ribbonPage5,
@@ -173,6 +181,7 @@ namespace QuanLyChoThueOto
             this.btDoiMatKhau.Name = "btDoiMatKhau";
             this.btDoiMatKhau.RibbonStyle = ((DevExpress.XtraBars.Ribbon.RibbonItemStyles)(((DevExpress.XtraBars.Ribbon.RibbonItemStyles.Large | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithText) 
             | DevExpress.XtraBars.Ribbon.RibbonItemStyles.SmallWithoutText)));
+            this.btDoiMatKhau.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btDoiMatKhau_ItemClick);
             // 
             // btSaoLuu
             // 
@@ -214,6 +223,7 @@ namespace QuanLyChoThueOto
             this.btSuCo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btSuCo.ImageOptions.Image")));
             this.btSuCo.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btSuCo.ImageOptions.LargeImage")));
             this.btSuCo.Name = "btSuCo";
+            this.btSuCo.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btSuCo_ItemClick);
             // 
             // btNhanVien
             // 
@@ -242,14 +252,6 @@ namespace QuanLyChoThueOto
             this.btXe.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btXe.ImageOptions.LargeImage")));
             this.btXe.Name = "btXe";
             this.btXe.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btXe_ItemClick);
-            // 
-            // btBaoCaoSuCo
-            // 
-            this.btBaoCaoSuCo.Caption = "Sự cố";
-            this.btBaoCaoSuCo.Id = 14;
-            this.btBaoCaoSuCo.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btBaoCaoSuCo.ImageOptions.Image")));
-            this.btBaoCaoSuCo.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btBaoCaoSuCo.ImageOptions.LargeImage")));
-            this.btBaoCaoSuCo.Name = "btBaoCaoSuCo";
             // 
             // btHopDongTheoNgay
             // 
@@ -299,6 +301,7 @@ namespace QuanLyChoThueOto
             this.btXeSua.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btXeSua.ImageOptions.Image")));
             this.btXeSua.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btXeSua.ImageOptions.LargeImage")));
             this.btXeSua.Name = "btXeSua";
+            this.btXeSua.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btXeSua_ItemClick);
             // 
             // barHeaderItem1
             // 
@@ -332,6 +335,14 @@ namespace QuanLyChoThueOto
             this.skinRibbonGalleryBarItem2.Caption = "skinRibbonGalleryBarItem2";
             this.skinRibbonGalleryBarItem2.Id = 34;
             this.skinRibbonGalleryBarItem2.Name = "skinRibbonGalleryBarItem2";
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "Thanh toán hợp đồng";
+            this.barButtonItem1.Id = 39;
+            this.barButtonItem1.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem1.ImageOptions.SvgImage")));
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // ribbonPage5
             // 
@@ -405,6 +416,7 @@ namespace QuanLyChoThueOto
             this.ribbonPageGroup3.AllowTextClipping = false;
             this.ribbonPageGroup3.ItemLinks.Add(this.btBBGiaoNhan);
             this.ribbonPageGroup3.ItemLinks.Add(this.btSuCo);
+            this.ribbonPageGroup3.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup3.Name = "ribbonPageGroup3";
             this.ribbonPageGroup3.Text = "Quản lý khi cho thuê";
             // 
@@ -429,7 +441,6 @@ namespace QuanLyChoThueOto
             // 
             this.ribbonPageGroup7.ItemLinks.Add(this.btLoaiXe);
             this.ribbonPageGroup7.ItemLinks.Add(this.btXe);
-            this.ribbonPageGroup7.ItemLinks.Add(this.btBaoCaoSuCo);
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             this.ribbonPageGroup7.Text = "Danh mục xe";
             // 
@@ -483,7 +494,6 @@ namespace QuanLyChoThueOto
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(992, 442);
             this.dataGridView1.TabIndex = 0;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // dataGridView2
             // 
@@ -493,14 +503,64 @@ namespace QuanLyChoThueOto
             this.dataGridView2.Size = new System.Drawing.Size(665, 432);
             this.dataGridView2.TabIndex = 0;
             // 
-            // tabControl1
+            // dgvXe
             // 
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Location = new System.Drawing.Point(0, 150);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(994, 444);
-            this.tabControl1.TabIndex = 5;
+            this.dgvXe.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvXe.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.clBienSoXe,
+            this.clTenXe,
+            this.clPhiXang,
+            this.clPhiKm,
+            this.clDonGia,
+            this.clMoTa,
+            this.clTrangThai});
+            this.dgvXe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvXe.Location = new System.Drawing.Point(0, 150);
+            this.dgvXe.Name = "dgvXe";
+            this.dgvXe.Size = new System.Drawing.Size(994, 444);
+            this.dgvXe.TabIndex = 8;
+            // 
+            // clBienSoXe
+            // 
+            this.clBienSoXe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clBienSoXe.HeaderText = "Biển số xe";
+            this.clBienSoXe.Name = "clBienSoXe";
+            // 
+            // clTenXe
+            // 
+            this.clTenXe.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clTenXe.HeaderText = "Tên xe";
+            this.clTenXe.Name = "clTenXe";
+            // 
+            // clPhiXang
+            // 
+            this.clPhiXang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clPhiXang.HeaderText = "Phí xăng";
+            this.clPhiXang.Name = "clPhiXang";
+            // 
+            // clPhiKm
+            // 
+            this.clPhiKm.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clPhiKm.HeaderText = "Phí Km";
+            this.clPhiKm.Name = "clPhiKm";
+            // 
+            // clDonGia
+            // 
+            this.clDonGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clDonGia.HeaderText = "Đơn giá";
+            this.clDonGia.Name = "clDonGia";
+            // 
+            // clMoTa
+            // 
+            this.clMoTa.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clMoTa.HeaderText = "Mô tả tình trạng";
+            this.clMoTa.Name = "clMoTa";
+            // 
+            // clTrangThai
+            // 
+            this.clTrangThai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.clTrangThai.HeaderText = "Trạng thái";
+            this.clTrangThai.Name = "clTrangThai";
             // 
             // ManHinhChinh
             // 
@@ -509,7 +569,7 @@ namespace QuanLyChoThueOto
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(994, 621);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.dgvXe);
             this.Controls.Add(this.ribbonStatusBar1);
             this.Controls.Add(this.ribbonControl1);
             this.Name = "ManHinhChinh";
@@ -522,6 +582,7 @@ namespace QuanLyChoThueOto
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemImageEdit1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvXe)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -550,7 +611,6 @@ namespace QuanLyChoThueOto
         private DevExpress.XtraBars.BarButtonItem btNhanVien;
         private DevExpress.XtraBars.BarButtonItem btLoaiXe;
         private DevExpress.XtraBars.BarButtonItem btXe;
-        private DevExpress.XtraBars.BarButtonItem btBaoCaoSuCo;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup7;
         private DevExpress.XtraBars.BarButtonItem btHopDongTheoNgay;
         private DevExpress.XtraBars.BarButtonItem btSuCoTheoNgay;
@@ -574,6 +634,14 @@ namespace QuanLyChoThueOto
         private DevExpress.Utils.WorkspaceManager workspaceManager1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.TabControl tabControl1;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
+        private System.Windows.Forms.DataGridView dgvXe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clBienSoXe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clTenXe;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clPhiXang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clPhiKm;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clDonGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clMoTa;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clTrangThai;
     }
 }
