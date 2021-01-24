@@ -125,25 +125,33 @@ namespace QuanLyChoThueOto
         private void btThem_Click(object sender, EventArgs e)
         {
             HopDong hopdong = new HopDong();
-            hopdong.MaHD = txtSoDH.Text;
-            hopdong.idXe = (int)cbbSoXe.SelectedValue;
-            hopdong.idNV = (int)cbbMaNV.SelectedValue;
-            hopdong.idKH = (int)cbbMaKH.SelectedValue;
-            hopdong.NgayHD = DateTime.Parse(msktbNgayHD.Text.ToString());
-            hopdong.TienDat = txtTienDat.Text;
-            hopdong.KhuyenMai = txtKhuyenMai.Text;
-            hopdong.NoiDungHD = txtNoiDungHD.Text;
-            hopdong.GiayToGiuLai = txtGiayTo.Text;
-            if (HopDongController.AddHopDong(hopdong))
+            try
             {
-                XtraMessageBox.Show("Nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-                XtraMessageBox.Show("Nhập không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                hopdong.MaHD = txtSoDH.Text;
+                hopdong.idXe = (int)cbbSoXe.SelectedValue;
+                hopdong.idNV = (int)cbbMaNV.SelectedValue;
+                hopdong.idKH = (int)cbbMaKH.SelectedValue;
+                hopdong.NgayHD = DateTime.Parse(msktbNgayHD.Text.ToString());
+                hopdong.TienDat = txtTienDat.Text;
+                hopdong.KhuyenMai = txtKhuyenMai.Text;
+                hopdong.NoiDungHD = txtNoiDungHD.Text;
+                hopdong.GiayToGiuLai = txtGiayTo.Text;
+                if (HopDongController.AddHopDong(hopdong))
+                {
+                    XtraMessageBox.Show("Nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Nhập không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            CNPMEntities context = new CNPMEntities();
-            List<HopDong> lstHopDong = context.HopDongs.ToList();
-            BindGrid(lstHopDong);
+                CNPMEntities context = new CNPMEntities();
+                List<HopDong> lstHopDong = context.HopDongs.ToList();
+                BindGrid(lstHopDong);
+            }
+            catch
+            {
+                MessageBox.Show("Nhập tất cả các thuộc tính và đảm bảo giá trị nhập đúng với giá trị cần lưu");
+            }
+            
         }
         private void btThoat_Click(object sender, EventArgs e)
         {
@@ -153,27 +161,34 @@ namespace QuanLyChoThueOto
 
         private void btSua_Click(object sender, EventArgs e)
         {
-            using (CNPMEntities db = new CNPMEntities())
+            try
             {
-                var dbhd = (from hd in db.HopDongs
-                            where hd.MaHD == GetMaHD
-                            select hd).FirstOrDefault();
-                dbhd.MaHD = txtSoDH.Text.ToString();
-                dbhd.idXe = (int)cbbSoXe.SelectedValue;
-                dbhd.idNV = (int)cbbMaNV.SelectedValue;
-                dbhd.idKH = (int)cbbMaKH.SelectedValue;
-                dbhd.NgayHD = DateTime.Parse(msktbNgayHD.Text.ToString());
-                dbhd.TienDat = txtTienDat.Text;
-                dbhd.KhuyenMai = txtKhuyenMai.Text.ToString();
-                dbhd.NoiDungHD = txtNoiDungHD.Text.ToString();
-                dbhd.GiayToGiuLai = txtGiayTo.Text.ToString();
-                db.SaveChanges();
-                XtraMessageBox.Show("Edit success", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                using (CNPMEntities db = new CNPMEntities())
+                {
+                    var dbhd = (from hd in db.HopDongs
+                                where hd.MaHD == GetMaHD
+                                select hd).FirstOrDefault();
+                    dbhd.MaHD = txtSoDH.Text.ToString();
+                    dbhd.idXe = (int)cbbSoXe.SelectedValue;
+                    dbhd.idNV = (int)cbbMaNV.SelectedValue;
+                    dbhd.idKH = (int)cbbMaKH.SelectedValue;
+                    dbhd.NgayHD = DateTime.Parse(msktbNgayHD.Text.ToString());
+                    dbhd.TienDat = txtTienDat.Text;
+                    dbhd.KhuyenMai = txtKhuyenMai.Text.ToString();
+                    dbhd.NoiDungHD = txtNoiDungHD.Text.ToString();
+                    dbhd.GiayToGiuLai = txtGiayTo.Text.ToString();
+                    db.SaveChanges();
+                    XtraMessageBox.Show("Edit success", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                GetMaHD = null;
+                CNPMEntities context = new CNPMEntities();
+                List<HopDong> lstHopDong = context.HopDongs.ToList();
+                BindGrid(lstHopDong);
             }
-            GetMaHD = null;
-            CNPMEntities context = new CNPMEntities();
-            List<HopDong> lstHopDong = context.HopDongs.ToList();
-            BindGrid(lstHopDong);
+            catch
+            {
+                MessageBox.Show("Nhập tất cả các thuộc tính và đảm bảo giá trị nhập đúng với giá trị cần lưu");
+            }
         }
         private void btXoa_Click(object sender, EventArgs e)
         {
@@ -192,20 +207,35 @@ namespace QuanLyChoThueOto
             btSua.Enabled = true;
             btXoa.Enabled = true;
             btIn.Enabled = true;
-            if (e.RowIndex >= 0)
+
+            
+            CNPMEntities context = new CNPMEntities();
+            List<HopDong> lstHopDong = context.HopDongs.ToList();
+            BindGrid(lstHopDong);
+            // phải doubleclick để chọn row, vì lúc đầu click vào nó phải load lại datagridview nên con trỏ chuột về lại đầu, có cách khác xử lý hay hơn, đều t nhác làm :v
+            if (e.RowIndex < lstHopDong.Count)
             {
-                DataGridViewRow row = dgvHD.Rows[e.RowIndex];
-                txtSoDH.Text = row.Cells[0].Value.ToString();
-                txtTienDat.Text = row.Cells[5].Value.ToString();
-                txtKhuyenMai.Text = row.Cells[6].Value.ToString();
-                txtNoiDungHD.Text = row.Cells[7].Value.ToString();
-                txtGiayTo.Text = row.Cells[8].Value.ToString();
-                msktbNgayHD.Text = row.Cells[4].Value.ToString();
-                cbbMaKH.Text = row.Cells[3].Value.ToString();
-                cbbMaNV.Text = row.Cells[2].Value.ToString();
-                cbbSoXe.Text = row.Cells[1].Value.ToString();
+                    DataGridViewRow row = dgvHD.Rows[e.RowIndex];
+                    txtSoDH.Text = row.Cells[0].Value.ToString();
+                    txtTienDat.Text = row.Cells[5].Value.ToString();
+                    txtKhuyenMai.Text = row.Cells[6].Value.ToString();
+                    txtNoiDungHD.Text = row.Cells[7].Value.ToString();
+                    txtGiayTo.Text = row.Cells[8].Value.ToString();
+                    msktbNgayHD.Text = row.Cells[4].Value.ToString();
+                    cbbMaKH.Text = row.Cells[3].Value.ToString();
+                    cbbMaNV.Text = row.Cells[2].Value.ToString();
+                    cbbSoXe.Text = row.Cells[1].Value.ToString();
+                    GetMaHD = txtSoDH.Text.ToString();
             }
-            GetMaHD = txtSoDH.Text.ToString();
+            else
+            {
+                btSua.Enabled = false;
+                btXoa.Enabled = false;
+                btIn.Enabled = false;
+                MessageBox.Show("Chọn sai record");
+                return;
+            }
+            
         }
     }
 }

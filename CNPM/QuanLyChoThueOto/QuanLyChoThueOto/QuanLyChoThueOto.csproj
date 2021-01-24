@@ -131,6 +131,12 @@
     <Compile Include="Models\NhanVien.cs">
       <DependentUpon>DBQuanlythueoto.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>DBQuanlythueoto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>DBQuanlythueoto.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>DBQuanlythueoto.tt</DependentUpon>
     </Compile>
