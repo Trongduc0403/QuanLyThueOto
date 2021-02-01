@@ -29,25 +29,29 @@ namespace QuanLyChoThueOto
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            NhanVien nhanvien = new NhanVien();
-            nhanvien.MaNV = txtMaNV.Text;
-            nhanvien.TenNV = txtTenNV.Text;
-            nhanvien.VaiTro = txtVaiTro.Text;
-            nhanvien.sdtNV = txtSDT.Text;
-            nhanvien.cmtNV = txtCMT.Text;
-
-            
-
-
-            if (NhanVienController.AddNhanVien(nhanvien))
+            try
             {
-                XtraMessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                NhanVien nhanvien = new NhanVien();
+                nhanvien.MaNV = txtMaNV.Text;
+                nhanvien.TenNV = txtTenNV.Text;
+                nhanvien.VaiTro = txtVaiTro.Text;
+                nhanvien.sdtNV = txtSDT.Text;
+                nhanvien.cmtNV = txtCMT.Text;
+                if (NhanVienController.AddNhanVien(nhanvien))
+                {
+                    XtraMessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Thêm nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                CNPMEntities context = new CNPMEntities();
+                List<NhanVien> listNhanVien = context.NhanViens.ToList();
+                BindGrid(listNhanVien);
             }
-            else
-                XtraMessageBox.Show("Thêm nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            CNPMEntities context = new CNPMEntities();
-            List<NhanVien> listNhanVien = context.NhanViens.ToList();
-            BindGrid(listNhanVien);
+            catch
+            {
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
         private void BindGrid(List<NhanVien> listNhanVien)
         {

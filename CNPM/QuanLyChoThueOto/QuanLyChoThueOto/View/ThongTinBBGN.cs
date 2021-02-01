@@ -93,29 +93,37 @@ namespace QuanLyChoThueOto
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            BBGN bbgn = new BBGN();
-            bbgn.MaBBGN = txtMaBBGN.Text;
-            bbgn.NgayGiao = DateTime.Parse(mskNgayGiao.Text.ToString());
-            bbgn.idXe = (int)cbbSoXe.SelectedValue;
-            bbgn.idKH = (int)cbbMaKH.SelectedValue;
-            bbgn.idNV = (int)cbbMaNV.SelectedValue;
-            bbgn.KmDi = int.Parse(txtKmDi.Text);
-            bbgn.XangDi = txtXangDi.Text;
-            bbgn.TrangThaiDi = txtTTDi.Text;
-            bbgn.NgayNhan = DateTime.Parse(mskNgayNhan.Text.ToString());
-            bbgn.KmVe = int.Parse(txtKmVe.Text);
-            bbgn.XangVe= txtXangVe.Text;
-            bbgn.TrangThaiVe= txtTTVe.Text;
-            if (BBGNController.AddBBGN(bbgn))
+            try
             {
-                XtraMessageBox.Show("Nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }
-            else
-                XtraMessageBox.Show("Nhập không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                BBGN bbgn = new BBGN();
+                bbgn.MaBBGN = txtMaBBGN.Text;
+                bbgn.NgayGiao = DateTime.Parse(mskNgayGiao.Text.ToString());
+                bbgn.idXe = (int)cbbSoXe.SelectedValue;
+                bbgn.idKH = (int)cbbMaKH.SelectedValue;
+                bbgn.idNV = (int)cbbMaNV.SelectedValue;
+                bbgn.KmDi = int.Parse(txtKmDi.Text);
+                bbgn.XangDi = txtXangDi.Text;
+                bbgn.TrangThaiDi = txtTTDi.Text;
+                bbgn.NgayNhan = DateTime.Parse(mskNgayNhan.Text.ToString());
+                bbgn.KmVe = int.Parse(txtKmVe.Text);
+                bbgn.XangVe= txtXangVe.Text;
+                bbgn.TrangThaiVe= txtTTVe.Text;
+                if (BBGNController.AddBBGN(bbgn))
+                {
+                    XtraMessageBox.Show("Nhập thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Nhập không thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            CNPMEntities context = new CNPMEntities();
-            List<BBGN> lstBBGn = context.BBGNs.ToList();
-            BindGrid(lstBBGn);
+                CNPMEntities context = new CNPMEntities();
+                List<BBGN> lstBBGn = context.BBGNs.ToList();
+                BindGrid(lstBBGn);
+            }
+            catch
+            {
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         

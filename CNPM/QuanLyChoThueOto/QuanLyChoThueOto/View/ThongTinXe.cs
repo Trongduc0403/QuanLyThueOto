@@ -24,27 +24,32 @@ namespace QuanLyChoThueOto
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            Xe xe= new Xe();
-            xe.Biensoxe = txtBSX.Text;
-            xe.idLoaiXe = (int)cbbLoaiXe.SelectedValue;
-            xe.TenXe = txtTenXe.Text;
-            xe.PhiXang = txtPhiXang.Text;
-            xe.PhiQuaKm = txtPhiQuaKm.Text;
-            xe.DonGia = txtDonGia.Text;
-            xe.MoTaTT = txtMoTaTT.Text;
-            xe.TrangThai = int.Parse(txtTrangThai.Text);
-
-            
-
-            if (XeController.AddXe(xe))
+            try
             {
-                XtraMessageBox.Show("Thêm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                Xe xe= new Xe();
+                xe.Biensoxe = txtBSX.Text;
+                xe.idLoaiXe = (int)cbbLoaiXe.SelectedValue;
+                xe.TenXe = txtTenXe.Text;
+                xe.PhiXang = txtPhiXang.Text;
+                xe.PhiQuaKm = txtPhiQuaKm.Text;
+                xe.DonGia = txtDonGia.Text;
+                xe.MoTaTT = txtMoTaTT.Text;
+                xe.TrangThai = int.Parse(txtTrangThai.Text);
+                if (XeController.AddXe(xe))
+                {
+                    XtraMessageBox.Show("Thêm thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Thêm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                CNPMEntities context = new CNPMEntities();
+                List<Xe> listXe = context.Xes.ToList();
+                BindGrid(listXe);
             }
-            else
-                XtraMessageBox.Show("Thêm thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            CNPMEntities context = new CNPMEntities();
-            List<Xe> listXe = context.Xes.ToList();
-            BindGrid(listXe);
+            catch
+            {
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         private void BindGrid(List<Xe> listXe)
@@ -79,14 +84,9 @@ namespace QuanLyChoThueOto
                 
                 var xe = (from x in db.LoaiXes
                           select x).ToList();
-
-
                 this.cbbLoaiXe.DataSource = xe;
                 this.cbbLoaiXe.ValueMember = "idLoaiXe";
                 this.cbbLoaiXe.DisplayMember = "TenLoai";
-
-
-                
 
             }
             CNPMEntities context = new CNPMEntities();

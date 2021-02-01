@@ -51,28 +51,36 @@ namespace QuanLyChoThueOto
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            KhachHang KhachHang = new KhachHang();
-            KhachHang.MaKH = txtMaKH.Text;
-            KhachHang.TenKH = txtTenKH.Text;
-            KhachHang.DiaChi = txtDiaChi.Text;
-            KhachHang.sdtKH = txtSDT.Text;
-            KhachHang.cmtKH = txtCMT.Text;
-            KhachHang.GPLX = txtGPLX.Text;
-            dgvKH.Rows.Add(1);
-            int index = dgvKH.Rows.Count - 1;
-            dgvKH.Rows[index - 1].Cells[0].Value = KhachHang.MaKH;
-            dgvKH.Rows[index - 1].Cells[1].Value = KhachHang.TenKH;
-            dgvKH.Rows[index - 1].Cells[2].Value = KhachHang.DiaChi;
-            dgvKH.Rows[index - 1].Cells[3].Value = KhachHang.sdtKH;
-            dgvKH.Rows[index - 1].Cells[4].Value = KhachHang.cmtKH;
-            dgvKH.Rows[index - 1].Cells[5].Value = KhachHang.GPLX;
-
-            if (KhachHangController.AddKhachHang(KhachHang))
+            try
             {
-                XtraMessageBox.Show("Thêm khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                KhachHang KhachHang = new KhachHang();
+                KhachHang.MaKH = txtMaKH.Text;
+                KhachHang.TenKH = txtTenKH.Text;
+                KhachHang.DiaChi = txtDiaChi.Text;
+                KhachHang.sdtKH = txtSDT.Text;
+                KhachHang.cmtKH = txtCMT.Text;
+                KhachHang.GPLX = txtGPLX.Text;
+                dgvKH.Rows.Add(1);
+                int index = dgvKH.Rows.Count - 1;
+                dgvKH.Rows[index - 1].Cells[0].Value = KhachHang.MaKH;
+                dgvKH.Rows[index - 1].Cells[1].Value = KhachHang.TenKH;
+                dgvKH.Rows[index - 1].Cells[2].Value = KhachHang.DiaChi;
+                dgvKH.Rows[index - 1].Cells[3].Value = KhachHang.sdtKH;
+                dgvKH.Rows[index - 1].Cells[4].Value = KhachHang.cmtKH;
+                dgvKH.Rows[index - 1].Cells[5].Value = KhachHang.GPLX;
+
+                if (KhachHangController.AddKhachHang(KhachHang))
+                {
+                    XtraMessageBox.Show("Thêm khách hàng thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Thêm khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            else
-                XtraMessageBox.Show("Thêm khách hàng thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            catch
+            {
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            
         }
 
         

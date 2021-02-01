@@ -47,22 +47,30 @@ namespace QuanLyChoThueOto
 
         private void btThem_Click(object sender, EventArgs e)
         {
-            LoaiXe loaixe = new LoaiXe();
-            loaixe.MaLoai = txtMaLoai.Text;
-            loaixe.TenLoai = txtTenLoai.Text;
-            loaixe.SoLuong = int.Parse(txtSL.Text);
-            loaixe.MoTa = txtMoTa.Text;
+            try
+            {
+                LoaiXe loaixe = new LoaiXe();
+                loaixe.MaLoai = txtMaLoai.Text;
+                loaixe.TenLoai = txtTenLoai.Text;
+                loaixe.SoLuong = int.Parse(txtSL.Text);
+                loaixe.MoTa = txtMoTa.Text;
             
 
-            if (LoaiXeController.AddLoaiXe(loaixe))
-            {
-                XtraMessageBox.Show("Thêm loại xe thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (LoaiXeController.AddLoaiXe(loaixe))
+                {
+                    XtraMessageBox.Show("Thêm loại xe thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                    XtraMessageBox.Show("Thêm loại xe thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                CNPMEntities context = new CNPMEntities();
+                List<LoaiXe> listLoaiXe = context.LoaiXes.ToList();
+                BindGrid(listLoaiXe);
             }
-            else
-                XtraMessageBox.Show("Thêm loại xe thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            CNPMEntities context = new CNPMEntities();
-            List<LoaiXe> listLoaiXe = context.LoaiXes.ToList();
-            BindGrid(listLoaiXe);
+            catch
+            {
+                MessageBox.Show("Kiểm tra lại thông tin nhập", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+           
         }
 
 
